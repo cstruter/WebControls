@@ -1,0 +1,29 @@
+﻿.cstruter_contextmenu {
+	position: absolute;
+	display: none;
+	list-style-type:none;
+	margin:0px;
+	padding:0px;
+	border: #c0c0c0 solid 1px;
+	background-color: #CCC;
+	color: #000;
+}
+
+.cstruter_contextmenu_option {
+	padding: 4px 8px;
+}
+
+.cstruter_contextmenu_option img {
+	vertical-align:middle;
+	margin-right:4px;
+}
+
+.cstruter_contextmenu_active:hover {
+	cursor: pointer;
+	background-color: #AAA;
+	color: #FFF;
+}
+
+.cstruter_contextmenu_inactive {
+	color: #c0c0c0;
+}
